@@ -1,13 +1,15 @@
 import './App.css'
-import TopBar from './components/TopBar/TopBar.jsx'
-import MailPasswordForm from './components/MailPasswordForm/MailPasswordForm.jsx'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import LogIn from './components/LogIn/LogIn';
 
 function App() {
   return (
-    <>
-      <TopBar/>
-      <MailPasswordForm/>
-    </>
+    <Router>
+      <Routes>
+        {/* Component routes */}
+        <Route path="/login" element={<LogIn/>} />
+      </Routes>
+    </Router>
   )
 }
 
