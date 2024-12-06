@@ -7,7 +7,6 @@ function App() {
     <>
       <TopBar/>
       <MailPasswordForm/>
-      <body>Acá iría la info</body>
     </>
   )
 }
