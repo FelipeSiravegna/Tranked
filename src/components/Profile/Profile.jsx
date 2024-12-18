@@ -12,11 +12,11 @@ export default function Profile(){
                     <div class="w-full flex justify-around">
                         <div class="flex flex-col items-center">
                             <h3>190</h3>
-                            <h3>Following:</h3>
+                            <h3>Following</h3>
                         </div>
                         <div class="flex flex-col items-center">
                             <h3>190</h3>
-                            <h3>Followers:</h3>
+                            <h3>Followers</h3>
                         </div>
                     </div>
                 </div>
@@ -38,6 +38,23 @@ export default function Profile(){
                         <img class="h-32 w-32" alt="Favourite album" src="https://i.scdn.co/image/ab67616d0000b273d9985092cd88bffd97653b58" />
                         <h3 class="p-2">GNX</h3>
                     </div>
+                </div>
+            </div>
+            {/* Favourite songs */}
+                <hr />
+                <h2 class="p-2">Favourite songs</h2>
+            <div class="flex justify-around">
+                <div class="w-24 flex flex-col justify-center">
+                    <img class="w-24 h-24" alt="Favourite song" src="https://i.scdn.co/image/ab67616d0000b273cdb645498cd3d8a2db4d05e1" />
+                    <h3>King Cunta</h3>
+                </div>
+                <div class="w-24 flex flex-col justify-center">
+                    <img class="w-24 h-24" alt="Favourite song" src="https://i.scdn.co/image/ab67616d0000b27368384dd85fd5e95831252f60" />
+                    <h3>Sweet Child O' Mine</h3>
+                </div>
+                <div class="w-24 flex flex-col justify-center">
+                    <img class="w-24 h-24" alt="Favourite song" src="https://www.clarin.com/img/2022/05/06/tYfXw0AJI_720x0__1.jpg" />
+                    <h3>La corriente</h3>
                 </div>
             </div>
         </>
