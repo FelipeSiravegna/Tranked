@@ -41,20 +41,18 @@ export default function Profile(){
                 </div>
             </div>
             {/* Favourite songs */}
-                <hr />
-                <h2 class="p-2">Favourite songs</h2>
-            <div class="flex justify-around">
-                <div class="w-24 flex flex-col justify-center">
+            <hr />
+            <h2 class="p-2">Favourite songs</h2>
+            <div>
+                <div class="flex justify-around items-center">
                     <img class="w-24 h-24" alt="Favourite song" src="https://i.scdn.co/image/ab67616d0000b273cdb645498cd3d8a2db4d05e1" />
-                    <h3>King Cunta</h3>
-                </div>
-                <div class="w-24 flex flex-col justify-center">
                     <img class="w-24 h-24" alt="Favourite song" src="https://i.scdn.co/image/ab67616d0000b27368384dd85fd5e95831252f60" />
-                    <h3>Sweet Child O' Mine</h3>
-                </div>
-                <div class="w-24 flex flex-col justify-center">
                     <img class="w-24 h-24" alt="Favourite song" src="https://www.clarin.com/img/2022/05/06/tYfXw0AJI_720x0__1.jpg" />
-                    <h3>La corriente</h3>
+                </div>
+                <div class="flex justify-around items-center mt-4 mb-4">
+                    <h3 class="w-24">King Cunta</h3>
+                    <h3 class="w-24">Sweet Child O'Mine</h3>
+                    <h3 class="w-24">La corriente</h3>
                 </div>
             </div>
         </>
