@@ -2,7 +2,7 @@ import TopBar from "../TopBar/TopBar"
 
 export default function Profile(){
     return(
-        <>
+        <div class="bg-fondo">
             <TopBar />
             {/* Image - Following - Followers */}
             <div class="m-4 flex items-center justify-around">
@@ -49,12 +49,12 @@ export default function Profile(){
                     <img class="w-24 h-24" alt="Favourite song" src="https://i.scdn.co/image/ab67616d0000b27368384dd85fd5e95831252f60" />
                     <img class="w-24 h-24" alt="Favourite song" src="https://www.clarin.com/img/2022/05/06/tYfXw0AJI_720x0__1.jpg" />
                 </div>
-                <div class="flex justify-around items-center mt-4 mb-4">
+                <div class="flex justify-around items-center py-4">
                     <h3 class="w-24">King Cunta</h3>
                     <h3 class="w-24">Sweet Child O'Mine</h3>
                     <h3 class="w-24">La corriente</h3>
                 </div>
             </div>
-        </>
+        </div>
     )
 }

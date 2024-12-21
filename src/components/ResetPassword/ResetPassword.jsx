@@ -3,7 +3,7 @@ import TopBar from "../TopBar/TopBar";
 
 export default function ResetPassword(){
     return(
-        <>
+        <div class="bg-fondo h-dvh">
             <TopBar/>
             <form class="flex justify-center">
                 <div class="flex flex-col w-8/12">
@@ -17,6 +17,6 @@ export default function ResetPassword(){
                 </div>
                 </div>
             </form>
-        </>
+        </div>
     )
 }

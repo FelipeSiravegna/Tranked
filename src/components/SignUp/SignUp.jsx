@@ -3,7 +3,7 @@ import TopBar from "../TopBar/TopBar";
 
 export default function SignUp(){
     return(
-        <>
+        <div class="bg-fondo h-dvh">
             <TopBar/>
             <form class="flex justify-center">
                 <div class="flex flex-col w-8/12">
@@ -17,6 +17,6 @@ export default function SignUp(){
                 </div>
                 </div>
             </form>
-        </>
+        </div>
     )
 }

@@ -4,9 +4,9 @@ import MailPasswordForm from "../MailPasswordForm/MailPasswordForm";
 
 export default function LogIn(){
     return(
-        <>
+        <div class="bg-fondo h-dvh">
             <TopBar/>
             <MailPasswordForm/>
-        </>
+        </div>
     )
 }
